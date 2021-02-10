@@ -23,6 +23,12 @@ git clone https://github.com/hiddengearz/jsubfinder.git; cd jsubfinder; go build
 echo "###  INSTALLING JSUBFINDER - COPYING KEYS ###"
 wget https://raw.githubusercontent.com/hiddengearz/jsubfinder/master/.jsf_signatures.yaml && mv .jsf_signatures.yaml ~/.jsf_signatures.yaml
 
+echo "### INSTALLING GAU ###"
+wget https://github.com/lc/gau/releases/download/v1.1.0/gau_1.1.0_linux_amd64.tar.gz -O gau.tar.gz; tar xvf gau.tar.gz; sudo mv gau /usr/local/bin/gau
+
+echo "### INSTALLING DALFOX BY SNAP ###"
+sudo snap install dalfox
+
 
 
 
